@@ -4,23 +4,61 @@
 }
 
 body{
-    background-color: #dededec4;
     display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #f0f2f5;;
 }
 
-img{
-    width: 70%;
+div.img > img{
+    height: 106px;
+    margin-left: -28px;
+    /* padding: ; */
 }
 
-h1{
-    color: blue;
+.ladoesquerdo{
+    padding: 0 32px 0 0;
+    display: flex;
+    flex-direction: column;
 }
 
-form{
+.textodalogo{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.textoFinal{
+    font-size: 14px;
+    text-align: center;
+}
+
+.ladoDireito .textoFinal .link{
+    color: #1c1e21;
+    text-decoration: none;
+}
+
+.formulario{
     background-color: #FFFFFF;
-    width: 396px;
-    height: 456px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 400px;
     padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.formulario a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.formulario hr{
+    opacity: 30%;
 }
 
 input{
@@ -32,44 +70,28 @@ input{
 }
 
 .entrar{
-    background-color: blue;
-    color: white;
+    font-size: 1.25rem;
+    background-color: #1877f2;
+    color: #ffffff;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     width: 100%;
     height: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.entrar:hover{
-    background-color: darkblue;
-}
-
-p{
-    text-align: center;
-}
-.textodalogo{
-    font-size: 24px;
-    text-align: left;
-}
-.textofinal{
-    font-size: 14px;
-}
-
-a{
-    color: blue;
-    text-align: center;
-    margin-left: 90px;
-}
-
-.criarnovaconta{
-    background-color: green;
+.criarNovaConta{
+    background-color: #42b72a;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     height: 46px;
-    margin-left: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
 }
 
-.criarnovaconta:hover{
+.criarNovaConta:hover{
     background-color: darkgreen;
 }
